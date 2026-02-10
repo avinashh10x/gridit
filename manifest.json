@@ -1,0 +1,68 @@
+{
+  "manifestVersion": 5,
+  "id": "com.dzinr.gridly",
+  "name": "Gridly",
+  "version": "1.0.0",
+  "main": "index.html",
+  "host": [
+    {
+      "app": "ILST",
+      "minVersion": "27.0.0"
+    }
+  ],
+  "entrypoints": [
+    {
+      "type": "panel",
+      "id": "gridlyPanel",
+      "label": "Gridly",
+      "minimumSize": {
+        "width": 230,
+        "height": 400
+      },
+      "maximumSize": {
+        "width": 400,
+        "height": 800
+      },
+      "preferredDockedSize": {
+        "width": 260,
+        "height": 500
+      },
+      "preferredFloatingSize": {
+        "width": 280,
+        "height": 600
+      },
+      "icons": [
+        {
+          "width": 24,
+          "height": 24,
+          "path": "icons/icon-24.png",
+          "scale": [1, 2],
+          "theme": ["darkest", "dark", "medium", "light", "lightest"]
+        },
+        {
+          "width": 48,
+          "height": 48,
+          "path": "icons/icon-48.png",
+          "scale": [1, 2],
+          "theme": ["darkest", "dark", "medium", "light", "lightest"]
+        }
+      ]
+    }
+  ],
+  "icons": [
+    {
+      "width": 24,
+      "height": 24,
+      "path": "icons/icon-24.png",
+      "scale": [1, 2],
+      "theme": ["darkest", "dark", "medium", "light", "lightest"]
+    },
+    {
+      "width": 48,
+      "height": 48,
+      "path": "icons/icon-48.png",
+      "scale": [1, 2],
+      "theme": ["darkest", "dark", "medium", "light", "lightest"]
+    }
+  ]
+}
