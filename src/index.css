@@ -1,0 +1,53 @@
+:root {
+  --background: #0e0e0e;
+  --surface: #0e0e0e;
+  --surface-container: #191a1a;
+  --surface-container-high: #1f2020;
+  --surface-container-highest: #252626;
+  --on-surface: #e7e5e4;
+  --on-surface-variant: #acabaa;
+  --primary: #00dbe9;
+  --secondary: #ff51fa;
+  --outline: #767575;
+  --outline-variant: #484848;
+  
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: var(--background);
+  color: var(--on-surface);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Modern tool layout */
+}
+
+/* Glass & HUD */
+.hud {
+  background: rgba(37, 38, 38, 0.8);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+/* Precision Grid Lines */
+.grid-line {
+  stroke: var(--secondary);
+  stroke-width: 0.5px;
+  stroke-opacity: 0.2;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: var(--surface);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--outline-variant);
+  border-radius: 2px;
+}
+
+* {
+  box-sizing: border-box;
+}
